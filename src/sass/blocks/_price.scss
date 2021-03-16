@@ -1,0 +1,25 @@
+.price {
+  padding-top: 60px;
+
+  &__wrapper {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: repeat(2, 365px);
+    grid-template-rows: repeat(2, minmax(44px, auto));
+    grid-auto-rows: minmax(44px, auto);
+    row-gap: 15px;
+    justify-content: space-between;
+  }
+
+  &__item {
+    &-wrapper {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+
+  &__description {
+    font-size: 12px;
+    line-height: 18px;
+  }
+}
