@@ -4,10 +4,8 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node public/app.js"
-  },
-  "engines": {
-    "node": "14.5.0"
+    "start": "node app",
+    "postinstall": "gulp default"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +14,17 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
-
+  ],
+  "dependencies": {
+    "run-sequence": "^2.2.1",
+    "browser-sync": "^2.26.14",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-cli": "^2.3.0",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-imagemin": "^6.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.1.0"
+  }
 }
