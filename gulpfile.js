@@ -1,7 +1,6 @@
 const gulp = require('gulp');
 const browserSync = require('browser-sync');
 const sass = require('gulp-sass');
-const runSeq = require('run-sequence');
 const cleanCSS = require('gulp-clean-css');
 const autoprefixer = require('gulp-autoprefixer');
 const rename = require('gulp-rename');
@@ -87,7 +86,3 @@ gulp.task(
     'images'
   )
 );
-
-gulp.task('heroku:production', function () {
-  runSeq('clean', 'build', 'minify');
-});
