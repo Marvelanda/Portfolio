@@ -4,13 +4,19 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node gulpfile",
+    "start": "node app",
     "postinstall": "gulp default"
   },
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "run-sequence": "^2.2.1",
     "browser-sync": "^2.26.14",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
@@ -20,11 +26,5 @@
     "gulp-imagemin": "^6.2.0",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.1.0"
-  },
-  "browserslist": [
-    "last 1 version",
-    "> 1%",
-    "maintained node versions",
-    "not dead"
-  ]
+  }
 }
