@@ -4,7 +4,7 @@
   "description": "",
   "main": "gulpfile.js",
   "scripts": {
-    "start": "node app",
+    "start": "node dist/app.js",
     "postinstall": "gulp default"
   },
   "engines": {
@@ -20,6 +20,7 @@
   ],
   "dependencies": {
     "browser-sync": "^2.26.14",
+    "express": "^4.17.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.3.0",
