@@ -1,5 +1,5 @@
 # Portfolio
 
-Please see my site portfolio on:
+Please see my portfolio on:
 
 https://marvelanda.github.io/Portfolio/dist/index.html
