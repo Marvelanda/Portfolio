@@ -439,4 +439,14 @@
       }
     }
   }
+
+  .modal {
+    width: 80%;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    &__close {
+      right: -30px;
+    }
+  }
 }
